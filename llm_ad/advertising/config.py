@@ -9,7 +9,7 @@ class Config:
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
     # 데이터 파일 경로
-    DATA_FILE_PATH = os.getenv("DATA_FILE_PATH", "./card_data/card_information.csv")  # 기본 경로 설정
+    DATA_FILE_PATH = os.getenv("DATA_FILE_PATH", "./data/card_information.csv")  # 기본 경로 설정
 
     # 기본 확인
     if not OPENAI_API_KEY:

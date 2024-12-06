@@ -1,8 +1,8 @@
 from flask import Flask, request, Response
 import json
-from app.data_loader import initialize_data
-from app.similarity import compute_cosine_similarity, compute_category_cosine_similarity
-from app.recommendation import recommend_top_cards
+from match_score.app.data_loader import initialize_data
+from match_score.app.similarity import compute_cosine_similarity, compute_category_cosine_similarity
+from match_score.app.recommendation import recommend_top_cards
 
 app = Flask(__name__)
 

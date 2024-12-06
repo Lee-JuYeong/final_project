@@ -1,4 +1,4 @@
-from advertising import create_app
+from llm_ad.advertising import create_app
 
 app = create_app()
 
