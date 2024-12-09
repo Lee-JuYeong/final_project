@@ -28,7 +28,7 @@ def extract_fee(annualfee, keyword):
 def initialize_data():
     # 데이터 로드
     card_data = pd.read_csv('./data/카드실적.csv')
-    category = pd.read_csv('./data/CardCategory.csv')
+    category = pd.read_csv('./data/data/CardCategory.csv')
     interest_data = pd.read_csv('./data/interest_score.csv')
     main_category = pd.read_csv('./data/Category.csv')
     card_info = pd.read_csv('./data/card_information.csv')
